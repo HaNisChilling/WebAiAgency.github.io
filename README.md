@@ -146,3 +146,121 @@
 
 </body>
 </html>
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    color:#333;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+header{
+    background:#111;
+    color:white;
+    padding:20px 0;
+}
+
+header .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+}
+
+.hero{
+    background:#f4f4f4;
+    padding:100px 20px;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.btn{
+    display:inline-block;
+    background:#0066ff;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:6px;
+}
+
+section{
+    padding:70px 20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.card{
+    border:1px solid #ddd;
+    padding:25px;
+    border-radius:10px;
+}
+
+.workflow{
+    text-align:center;
+    font-size:24px;
+    margin-top:30px;
+}
+
+form{
+    max-width:600px;
+    margin:auto;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+}
+
+button{
+    width:100%;
+    padding:14px;
+    background:#0066ff;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:.9;
+}
+
+#status{
+    text-align:center;
+    margin-top:20px;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
