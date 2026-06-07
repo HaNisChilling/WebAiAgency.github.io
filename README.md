@@ -1,1 +1,148 @@
 # WebAiAgency.github.io
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Automation Agency</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h2>AI Automation Agency</h2>
+
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#solutions">Solutions</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <h1>Automate Your Business With AI</h1>
+
+        <p>
+            Save time, reduce costs, and scale operations using
+            AI-powered automation workflows.
+        </p>
+
+        <a href="#contact" class="btn">
+            Book Free Consultation
+        </a>
+    </div>
+</section>
+
+<section id="services">
+    <div class="container">
+        <h2>Our Services</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>AI Chatbots</h3>
+                <p>Customer support and lead qualification.</p>
+            </div>
+
+            <div class="card">
+                <h3>Workflow Automation</h3>
+                <p>n8n automation for repetitive tasks.</p>
+            </div>
+
+            <div class="card">
+                <h3>CRM Automation</h3>
+                <p>Automatically manage customer data.</p>
+            </div>
+
+            <div class="card">
+                <h3>Invoice Processing</h3>
+                <p>AI extraction and document workflows.</p>
+            </div>
+
+            <div class="card">
+                <h3>Email Automation</h3>
+                <p>Lead nurturing and follow-up sequences.</p>
+            </div>
+
+            <div class="card">
+                <h3>Reporting Dashboards</h3>
+                <p>Power BI and automated analytics.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="solutions">
+    <div class="container">
+        <h2>How We Help</h2>
+
+        <div class="workflow">
+            Lead Capture
+            →
+            AI Qualification
+            →
+            CRM Update
+            →
+            Automated Follow-up
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+
+        <h2>Get a Free Consultation</h2>
+
+        <form id="leadForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <input
+                type="text"
+                id="company"
+                placeholder="Company Name"
+            >
+
+            <textarea
+                id="message"
+                rows="5"
+                placeholder="Tell us about your automation needs"
+            ></textarea>
+
+            <button type="submit">
+                Submit
+            </button>
+
+        </form>
+
+        <div id="status"></div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 AI Automation Agency</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
